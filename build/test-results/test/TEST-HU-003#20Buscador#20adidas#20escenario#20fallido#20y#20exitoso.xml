@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HU-003 Buscador adidas escenario fallido y exitoso" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-12-23T14:25:30" hostname="DESKTOP-P3OGUBB" time="15.903">
+  <properties/>
+  <testcase name="Busqueda Exitosa" classname="HU-003 Buscador adidas escenario fallido y exitoso" time="8.113"/>
+  <testcase name="Busqueda Fallida" classname="HU-003 Buscador adidas escenario fallido y exitoso" time="7.786">
+    <failure message="java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), 'Chanclas Adilette Jeremy Scott Teddy')]&quot;}&#10;  (Session info: chrome=96.0.4664.110)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-P3OGUBB', ip: '192.168.83.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17241908da059113182e2c81ae148b88&#10;*** Element info: {Using=xpath, value=//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), 'Chanclas Adilette Jeremy Scott Teddy')]}" type="java.lang.AssertionError">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), 'Chanclas Adilette Jeremy Scott Teddy')]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P3OGUBB', ip: '192.168.83.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17241908da059113182e2c81ae148b88
+*** Element info: {Using=xpath, value=//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), 'Chanclas Adilette Jeremy Scott Teddy')]}
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at stepsDefinitions.AdidasEscenarioExitosoYFallidoStepsDefinitions.podreObservarEnPantalla(AdidasEscenarioExitosoYFallidoStepsDefinitions.java:29)
+	at ✽.podre observar en pantalla(src/test/resources/features/AdidasEscenarioExitosoYFallido.feature:19)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 4238
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic. 23, 2021 9:25:31 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Busqueda Exitosa
+----------------------------------------------------------------------------
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 45999
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic. 23, 2021 9:25:39 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Busqueda Fallida
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then should be an element containing 'CHANCLAS ADILETTE JEREMY SCOTT TEDDY'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class ='product-description___2cJO2']/h1[@data-auto-id='product-title' and @class='gl-heading gl-heading--regular gl-heading--italic name___1EbZs']//span[contains(text(), 'Chanclas Adilette Jeremy Scott Teddy')]"}
+]]></system-err>
+</testsuite>

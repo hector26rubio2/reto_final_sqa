@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU-002 Buscador adidas background","Escenario1 Encontrar producto","SUCCESS","2021-12-23T09:25:13.3903862-05:00[America/Bogota]","0.0","8.03"
+"HU-002 Buscador adidas background","Escenario2 Encontrar producto","SUCCESS","2021-12-23T09:25:21.5144831-05:00[America/Bogota]","0.0","8.58"
+"HU-001 Buscador Adidas","Buscador producto","SUCCESS","2021-12-23T09:24:23.6108511-05:00[America/Bogota]","0.0","47.1"
+"HU-003 Buscador adidas escenario fallido y exitoso","Busqueda Exitosa","SUCCESS","2021-12-23T09:25:30.3379415-05:00[America/Bogota]","0.0","7.4"
+"HU-003 Buscador adidas escenario fallido y exitoso","Busqueda Fallida","ERROR","2021-12-23T09:25:38.4553082-05:00[America/Bogota]","0.0","7.04"
